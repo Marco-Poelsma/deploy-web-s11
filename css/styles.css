@@ -65,6 +65,9 @@ h1 {
         background-color: white;
         color: hotpink;
     }
+    69% {
+        color: navy;
+    }
     100% {
         background-color: black;
         color: darkgreen;
