@@ -6,7 +6,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    animation: epilepsia 0.1s linear infinite, threedeespin 5s linear infinite;
+    animation: epilepsia 2s linear infinite, threedeespin 5s linear infinite;
 }
 
 .fih{
