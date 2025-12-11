@@ -69,6 +69,7 @@ h1 {
     69% {
         color: navy;
         transform: rotate3d(2, 34, 4, 5deg);
+        scale: 5;
     }
     100% {
         background-color: black;
