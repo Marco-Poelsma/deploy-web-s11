@@ -64,13 +64,16 @@ h1 {
     0% {
         background-color: white;
         color: hotpink;
+        transform: rotate3d(1, 1, 1, 0deg);
     }
     69% {
         color: navy;
+        transform: rotate3d(2, 34, 4, 5deg);
     }
     100% {
         background-color: black;
         color: darkgreen;
-        scale: 0.3
+        scale: 0.3;
+        transform: rotate3d(50, 4, 3, 360deg);
     }
 }
