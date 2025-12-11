@@ -1,3 +1,73 @@
 :root {
     font-family: 'Helvetica', 'Roboto', 'Arial', sans-serif;
 }
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    animation: epilepsia 0.1s linear infinite, threedeespin 5s linear infinite;
+}
+
+.fih{
+    animation-name: threedeespin;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    z-index: 2;
+}
+
+@keyframes threedeespin {
+    0% {
+        transform: rotate3d(1, 2, -1, 0deg);
+    }
+    100% {
+        transform: rotate3d(1, 2, -1, 360deg);
+    }
+}
+
+h1 {
+    animation-name: headerspin;
+    animation-duration: 0.05s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes headerspin {
+    0% {
+        transform: rotateY(360deg);
+    }
+    100% {
+        transform: rotateY(0deg);
+    }
+}
+
+.mambo{
+    animation-name: mambo;
+    animation-duration: 0.1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    z-index: 0;
+}
+
+@keyframes mambo {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+        scale: 5
+    }
+}
+
+@keyframes epilepsia {
+    0% {
+        background-color: white;
+        color: hotpink;
+    }
+    100% {
+        background-color: black;
+        color: darkgreen;
+        scale: 0.3
+    }
+}
